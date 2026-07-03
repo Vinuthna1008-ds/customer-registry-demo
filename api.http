@@ -1,0 +1,11 @@
+### Register User
+
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Vinuthna",
+  "email": "vinuthna@gmail.com",
+  "password": "123456",
+  "phone": "9876543210"
+}
